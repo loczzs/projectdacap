@@ -1,0 +1,668 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat'
+}
+.renone{
+  position: relative;
+}
+.ham-none{
+  border-radius: 0px 0px 8px 0px;
+  border: 1px solid black;
+  display: none;
+  width: 150px;
+  padding: 12px 24px;
+  background-color: white;
+  z-index: 1000;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  border-left: none;
+  border-top:none ;
+
+}
+.ham-text a{
+  margin-bottom: 20px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: -0.01em;
+
+  /* Neutral/3 */
+
+  color: #353945;
+}
+.head {
+  margin-bottom: 80px;
+  border: 1px solid #e6e8ec;
+  /* background-color: #F4F5F6; */
+  background: #ffffff;
+  /* position: fixed; */
+  width: 100%;
+  /* background-attachment: fixed; */
+}
+.container {
+  width: 80%;
+    /* position: fixed; */
+  margin: auto;
+  padding-top: 24px !important;
+  padding: 24px 0px;
+  gap: 601px;
+
+  /* width: 1120px;  */
+  /* height: 82px; */
+/*  */
+  /* background:red; */
+  /* Neutral/6 */
+}
+
+.head-menu a {
+  padding: 31px 0px;
+  /* width: 69px;
+  height: 20px; */
+
+  /* Cap 1 */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: -0.01em;
+
+  /* Neutral/3 */
+
+  color: #353945;
+  text-decoration: none;
+}
+.head-menu {
+  display: flex;
+}
+.line {
+  height: 2px;
+  background-color: black;
+  transition: all 0.8s;
+  width: 0;
+  z-index: 100;
+  border-radius: 5px;
+  visibility: hidden;
+}
+.ani {
+  margin-left: 24px;
+}
+.ani:hover .line {
+  width: 100%;
+  visibility: visible;
+}
+.col-sm-1{
+  cursor: pointer;
+  display: none;
+  padding-top: 12px;
+}
+.new-title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  /* identical to box height, or 122% */
+
+  letter-spacing: -0.01em;
+
+  /* Neutral/2 */
+
+  color: #23262f;
+  margin-bottom: 80px;
+}
+
+.new-knowlege{
+  margin-bottom: 80px;
+}
+.container-new{
+  /* padding: 0px 24px; */
+     width: 1120px;
+     margin: auto;
+     /* padding: 0 160px; */
+}
+.container-new p{
+  margin-bottom: 40px;
+}
+.knowlege-item{
+  height: 160px;
+  margin-bottom: 64px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  
+  
+}
+.knowlege-img{
+  margin-right: 17px;
+}
+.knowlege-text span{
+  /* width: 118px; */
+/* height: 16px; */
+
+/* Cap 3 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+/* Neutral/4 */
+
+color: #777E91;
+
+}
+.knowlege-text h1 {
+  width: 80%;
+
+
+/* Tittle 2 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+
+/* Neutral/3 */
+
+color: #353945;
+}
+.knowlege-text p{
+  width: 70%;
+
+
+/* Body 1 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: -0.01em;
+
+/* Neutral/4 */
+
+color: #777E91;
+}
+
+.new-button .btn1{
+  margin-right: 24px;
+  width: 24px;
+height: 24px;
+
+/* Cap 1 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+/* Neutral/8 */
+
+color: #FCFCFD;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 9px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+/* Neutral/3 */
+
+background: #353945;
+border-radius: 6px;
+
+}
+.an{
+  text-decoration: none;
+}
+.new-button .btn2 {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 9px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+background: #FFFFFF;
+/* Neutral/6 */
+
+border: 1px solid #E6E8EC;
+border-radius: 6px;
+
+  width: 24px;
+height: 24px;
+
+/* Cap 1 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+/* Neutral/4 */
+
+color: #777E91;
+
+}
+
+
+.img{
+  /* text-align: center; */
+  margin-bottom: 32px;
+}
+.footer{
+  padding-bottom: 20px;
+  border-top: 1px solid #E6E8EC;
+}
+.footer .container .row .col-sm-6 p{
+  
+  width: 318px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* Neutral/4 */
+
+color: #777E91;
+}
+.footer .container{
+  width: 80%;
+    /* position: fixed; */
+  margin: auto;
+  
+  padding: 24px 0px;
+  gap: 601px;
+}
+.footer .container .row{
+  /* justify-content: space-between; */
+}
+.foozz{
+  display: flex;
+}
+.footer .container .row .col-sm-2{
+  padding-top: 48px;
+  
+}
+.footer .container .row .col-sm-6{
+  margin-bottom: 24px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+color: #000000;
+}
+.refsp{
+  margin-bottom: 24px;
+}
+
+.repfoot{
+  width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+  cursor: pointer;
+}
+
+.repfoot span{
+  
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+color: #000000;
+
+}
+.footer .container .row .col-sm-2  a{
+  
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+
+/* Cap 2 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Neutral/4 */
+
+color: #777E91;
+}
+.footer .container .row .col-sm-2 .refa a{
+  
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+
+/* Cap 2 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Neutral/4 */
+
+color: #777E91;
+}
+.foot-line{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E6E8EC;
+}
+.ab{
+  width: 26px;
+  height: 26px;
+  margin-right: 16.2px;
+}
+.refa{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+  .head-menu a{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .head-menu a{
+    font-size: 9px;
+  }
+
+
+  .knowlege-item{
+    width: 100%;
+  }
+  
+  
+  
+    .ham-none{
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+  .knowlege-item{
+    width: 100%;
+  }
+  
+  
+  
+    .ham-none{
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+   
+    .head .container .row .col-sm-7{
+      width: 70%;
+    }
+    .head .container .row .col-sm-1{
+      text-align: right;
+      width: 30%;
+      display: block;
+    }
+    .head .container .row .col-sm-4{
+      display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+  .knowlege-item{
+    width: 100%;
+  }
+  
+  
+  
+    .ham-none{
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+   
+    .head .container .row .col-sm-7{
+      width: 70%;
+    }
+    .head .container .row .col-sm-1{
+      text-align: right;
+      width: 30%;
+      display: block;
+    }
+    .head .container .row .col-sm-4{
+      display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 576px){
+  .knowlege-item{
+    width: 100%;
+  }
+  .knowlege-img{
+    display: none;
+  }
+  
+  
+  
+    .ham-none{
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .footer .container .row .col-sm-2  a{
+    
+      display: none;
+      text-decoration: none;
+      margin-bottom: 20px;
+    
+    /* Cap 2 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    /* Neutral/4 */
+    
+    color: #777E91;
+    }
+    .head .container .row .col-sm-7{
+      width: 70%;
+    }
+    .head .container .row .col-sm-1{
+      text-align: right;
+      width: 30%;
+      display: block;
+    }
+    .head .container .row .col-sm-4{
+      display: none;
+    }
+    .footer .container .row .col-sm-6{
+      width: 100%;
+      text-align: center;
+    }
+    .repfoot{
+      
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        /* display: block; */
+      
+    }
+    .refsp{
+      display: none;
+    }
+    
+    .footer .container .row .col-sm-2{
+    width: 100% !important;
+    margin: 0px;
+    padding-top: 10px;
+   }
+   .refa{
+    display: none;
+   }
+}
+
+@media screen and (max-width: 376px){
+
+
+
+.knowlege-item{
+  width: 100%;
+}
+.knowlege-img{
+  display: none;
+}
+
+
+
+  .ham-none{
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .footer .container .row .col-sm-2  a{
+  
+    display: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+  
+  /* Cap 2 */
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  
+  
+  /* Neutral/4 */
+  
+  color: #777E91;
+  }
+  .head .container .row .col-sm-7{
+    width: 70%;
+  }
+  .head .container .row .col-sm-1{
+    text-align: right;
+    width: 30%;
+    display: block;
+  }
+  .head .container .row .col-sm-4{
+    display: none;
+  }
+  .footer .container .row .col-sm-6{
+    width: 100%;
+    text-align: center;
+  }
+  .repfoot{
+    
+      width: 100%;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      /* display: block; */
+    
+  }
+  .refsp{
+    display: none;
+  }
+  
+  .footer .container .row .col-sm-2{
+  width: 100% !important;
+  margin: 0px;
+  padding-top: 10px;
+ }
+ .refa{
+  display: none;
+ }
+}
+  
+  
+  
+  
+  
+  
